@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return-Evokline</title>
+    <!-- /###########Stylesheet#############/ -->
+    <link rel="stylesheet" href="./css/style.css">
+
+     
+     
+</head>
+
+<body>
+   
+   <section class="men-section">
+               <h2>Men</h2>
+        <div class="men-option-selection">
+            <select name="SortBy" id="SortBy" data-default-sortby="price-descending">
+                <option value="title-ascending">Sort</option>
+                <option value="manual">Featured</option>
+                <option value="best-selling">Best selling</option>
+                <option value="title-ascending">Alphabetically, A-Z</option>
+                <option value="title-descending">Alphabetically, Z-A</option>
+                <option value="price-ascending">Price, low to high</option>
+                <option value="price-descending">Price, high to low</option>
+                <option value="created-ascending">Date, old to new</option>
+                <option value="created-descending" selected="selected">Date, new to old</option>
+            </select>
+        </div>
+        
+
+       <div class="men-container">
+           
+           <div class="product-filter-selection">
+               <div class="product-filter-color">
+                   <h3>
+                    Color
+                   </h3>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="">
+                        <span>All Colors</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-beige"> <span>Beige</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-black"> <span>BLACK</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-brown"> <span>Brown</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-green"> <span>Green</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-grey"> 
+                        <span>Grey</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-khaki"> <span>Khaki</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-navy"> 
+                        <span>Navy</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-navy-white"> <span>Navy White</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-navy-grey"> <span>Navy-Grey</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-navy-red"> <span>Navy-Red</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-olive"> <span>Olive</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-orange-navy"> <span>Orange-Navy</span>
+                    </label>
+                    <label>
+                        <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-tan">
+                        <span>Tan</span>
+                        </label>
+                    <label>
+                            <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-teal"> <span>Teal</span>
+                    </label>
+                    <label>
+                            <input class="cf-radio" data-group-name="Color" type="radio" value="cf-color-yellow-black"> <span>Yellow-Black</span>
+                    </label>                             
+               </div>
+
+               <div class="product-filter-size">
+                   <h3>Size-UK</h3>
+                    <label>
+                        <input class="cf-checkbox" name="SIZE (UK)[]" data-group-name="SIZE (UK)" type="checkbox" value="" id="" checked=""> 
+                        <span>All SIZE (UK)</span>
+                    </label>
+                    <label>
+                        <input class="cf-checkbox" name="SIZE (UK)[]" data-group-name="SIZE (UK)" type="checkbox" value="cf-size-uk-6" id="6">
+                        <span>6</span>
+                    </label>
+                    <label>
+                        <input class="cf-checkbox" name="SIZE (UK)[]" data-group-name="SIZE (UK)" type="checkbox" value="cf-size-uk-7" id="7">
+                        <span>7</span>
+                    </label>
+                    <label>
+                        <input class="cf-checkbox" name="SIZE (UK)[]" data-group-name="SIZE (UK)" type="checkbox" value="cf-size-uk-8" id="8"> 
+                        <span>8</span>
+                    </label>
+                    <label>
+                        <input class="cf-checkbox" name="SIZE (UK)[]" data-group-name="SIZE (UK)" type="checkbox" value="cf-size-uk-9" id="9"> 
+                        <span>9</span>
+                    </label>
+                    <label>
+                        <input class="cf-checkbox" name="SIZE (UK)[]" data-group-name="SIZE (UK)" type="checkbox" value="cf-size-uk-10" id="10"> 
+                        <span>10</span>
+                    </label>
+                    <label>
+                        <input class="cf-checkbox" name="SIZE (UK)[]" data-group-name="SIZE (UK)" type="checkbox" value="cf-size-uk-11" id="11">
+                        <span>11</span>
+                    </label> 
+                </div>
+           </div>
+
+           <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="inner-column">
+                <div class="pd-card-img">
+                    <img src="./img/card-img-1.jpeg" width="200">
+                </div>
+                <div class="pd-card-title">
+                    <div class="pd-name">
+                        <h4>EVOK</h4>
+                        <span class="pd-feature">Running Shoe</span>
+                    </div> 
+                    <div class="pd-star-icon">
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                            <i class="fa-solid fa-star  star-icon"></i>
+                    </div>                      
+                    <div class="pd-dics-text">
+                        <span class="sp-one">₹1,399</span>
+                         <span class="sp-two">₹1,699 </span> 
+                         <span class="sp-three">Save ₹300 (18%)</span>  
+                        </div>
+                    <div class="pd-delivery-method">FREE Delivery by Amazon</div>
+                </div>
+            </div>
+        </div>
+
+       </div>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://kit.fontawesome.com/011bfed644.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
