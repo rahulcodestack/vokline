@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
     color: var(--color-black);
    background: var(--color-white);
+  box-sizing: border-box;
     
 }
 
@@ -97,7 +98,7 @@ h3 {
 }
 
 .header {
-  position: fixed;
+  /* position: fixed; */
   display: block;
   top: 0;
   left: 0;
