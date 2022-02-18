@@ -7,14 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vokline</title>
     <!-- /#########Font-awesome###########/ --> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://kit.fontawesome.com/011bfed644.js" crossorigin="anonymous"></script>
 
         <!-- /#################Owl-carousel#############/ -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" >
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" >
-
-    <script src="https://kit.fontawesome.com/011bfed644.js" crossorigin="anonymous"></script>
 
     <!-- /###########Stylesheet#############/ -->
     <link rel="stylesheet" href="./css/style.css">
@@ -25,90 +23,91 @@
 
 <body>
 
-    <navbar>
+    <!-- Header Section -->
+	<header class="header">
+		<div class="header-container">
+			<section class="wrapper">
+				<div class="header-item-left">
+					<a href="./index.html" class="brand">
+                        <img src="./img/logo-2.jpg" alt="vokline-logo" style="width: 100px;">
+                    </a>
+				</div>
+				<!-- Navbar Section -->
+				<div class="header-item-center">
+					<div class="overlay"></div>
+					<nav class="menu" id="menu">
+						<div class="menu-mobile-header">
+							<button type="button" class="menu-mobile-arrow"><i class="fa-solid fa-angle-left"></i></button>
+							<div class="menu-mobile-title"></div>
+							<button type="button" class="menu-mobile-close"><i class="fa-solid fa-xmark"></i></button>
+						</div>
+						<ul class="menu-section">
+							<li class="menu-item"><a href="#">Home</a></li>
+							
+							<li class="menu-item-has-children">
+								<a href="#">Categories <i class="fa-solid fa-angle-down"></i></a>
+								<div class="menu-subs menu-mega menu-column-4">
+									<div class="list-item">
+										<h4 class="title">Men's Fashion</h4>
+										<ul>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+										</ul>
+										<h4 class="title">Kid's Fashion</h4>
+										<ul>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+										</ul>
+									</div>
+									<div class="list-item">
+										<h4 class="title">Women's Fashion</h4>
+										<ul>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+											<li><a href="#">Product List</a></li>
+										</ul>
+										
+									</div>
+									
+									<div class="list-item">
+										<img src="./img/product-05.jpg" loading="lazy" alt="Product Images">
+									</div>
+								</div>
+							</li>
 
-        <div class="container">
-            <div class="header-logo">
-                <div class="logo-img">
-                    <a href="#"><img src="./img/logo-2.jpg" alt="" width="90"></a>
-                </div>
-            </div>
-            <div class="header-menu">
-                <ul>
-                    <li>
-                        <a href="">Man</a><i class="fa fa-angle-down"></i>
-                        <ul>
-                            <li>
-                                <a href="">Slides</a>
-                            </li>
-                            <li>
-                                <a href="">Flip Flops</a>
-                                <ul>
-                                    <li>
-                                        <a href="">TruBounce</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Anti-skid</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Yoga mat</a>
-                                    </li>
-                                    <li> 
-                                        <a href="">Graphic</a>
-                                    </li>
-                                </ul>
+							<li class="menu-item"><a href="#">Know your size</a></li>
+							<li class="menu-item"><a href="#">Track your order</a></li>
+							<li class="menu-item"><a href="#">Returns</a></li>
+						</ul>
+					</nav>
+				</div>
 
-                            </li>
-                            <li >
-                                <a href="">All Flip Flops</a>
-                            </li>
-                        </ul>
+				<div class="header-item-right">
+					<a href="#" class="menu-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+					<a href="#" class="menu-icon"><i class="fa-solid fa-heart"></i></a>
+					<a href="#" class="menu-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+					<button type="button" class="menu-mobile-toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</section>
+		</div>
+	</header>
 
-                        <li>
-                            <a href="">Know your size</a>
-                        </li>
-                        <li>
-                            <a href="">Track your order</a>
-                        </li>
-                        <li>
-                            <a href="">Returns</a>
-                        </li>
-
-                </ul>
-            </div>
-            <div class="header-icon">
-                <ul>
-                    <li >
-                        <a href="#" class="input-icon">
-                            <i class="fa fa-search icon" aria-hidden="true"></i>
-                            <input placeholder="Search for products, brands and more" class="desktop-search">
-                        </a>
-                    </li>
-
-                    <li class="profile">
-                        <a href="#" class="profile-icon">
-                            <i class="fa fa-user-o" aria-hidden="true"></i>
-                            <span>Profile</span>
-                        </a>
-                    </li>
-
-                    <li class="profile">
-                        <a href="#" class="profile-icon">
-                            <i class="fa fa-window-maximize" aria-hidden="true"></i>
-                            <span>Bag</span>
-                        </a>
-
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </navbar>
+   <!-- ##############banner############## -->
     <section class="banner">
         <div class="banner-carousel owl-carousel owl-theme">
             <div class="item">
                 <div class="banner-img">
-                    <img src="./img/img-1.jpg" alt="banner">
+                    <img src="./img/banner-img-1.jpg" alt="banner">
                 </div>
 
                 <div class="banner-text banner-text-one">
@@ -119,15 +118,12 @@
             </div>
             <div class="item banner-2">
                 <div class="banner-img">
-                    <img src="./img/img-5.png" alt="banner">
-                </div>
-                <div class=" banner-text-two">
-                    <h1>adding a spring to your style </h1>
+                    <img src="./img/banner-img-9.jpg" alt="banner">
                 </div>
             </div>
             <div class="item">
                 <div class="banner-img">
-                    <img src="./img/img-3.jpg" alt="banner">
+                    <img src="./img/banner-img-3.jpg" alt="banner">
                 </div>
                 <div class="banner-text banner-text-three">
                     <h1>on every prepaid order</h1>
@@ -550,8 +546,9 @@
 
 
 
-
-
+<!-- =================js-file================== -->
+        <script src="./js/script.js"></script>
+ <!-- =============owl-carousel============= -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
