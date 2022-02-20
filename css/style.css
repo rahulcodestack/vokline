@@ -1027,6 +1027,9 @@ span.sp-three {
   display: flex;
   justify-content: space-around;
 }
+.pd-card-btn .btn-click a{
+  color: #fff;
+}
 .btn-click {
   min-width:210px;
   text-align: center;
