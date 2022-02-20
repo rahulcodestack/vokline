@@ -625,7 +625,7 @@ span.search-icon {
 }
 
 .banner-text-one p {
-    font-size: 40px;
+    font-size: 22px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
@@ -658,6 +658,26 @@ span.search-icon {
   font-family: inherit;
   text-transform: uppercase;
   color: #fff;
+}
+.banner-text-three{
+ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    left: -100px;
+    top: 0;
+}
+.banner-text-three h3{
+  font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+
 }
 
 /* .owl-theme{
@@ -695,7 +715,7 @@ position: relative;
 .owl-dots {
     position: absolute;
     width: 100%;
-    bottom: 66px;
+    bottom: 15px;
 }
 
 .owl-dot span {
